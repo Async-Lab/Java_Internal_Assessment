@@ -137,7 +137,14 @@
 | ownerId | String  | 欠费人学号 |
 | handIn  | boolean |  是否补交  |
 
+#### 缴费信息类（payment.class)
 
+| 参数名  |  类型   |  信息类型  |
+| :-----: | :-----: | :--------: |
+|  date   | String  |  发起日期  |
+|  issue  | String  |  缴费事件  |
+|  money  | double  |  缴费金额  |
+| debtorId| String  |  缴费学号  |
 
 #### 前后端交互
 
